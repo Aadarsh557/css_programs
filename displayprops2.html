@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ball{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            border-radius: 100%;
+            border: 2px solid black;
+            margin-top: 400px;
+            margin-left: 700px;
+        }
+        #box{
+            height: 300px;
+            width: 300px;
+            background-color: brown;
+            border: 3px solid black;
+        position: relative;
+        left: 50px;
+        top: -300px;
+        display: none;
+        }
+        #ball:hover #box{
+
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="ball">
+        <div id="box">i am here
+
+        </div>
+         
+    </div>
+</body>
+</html>
